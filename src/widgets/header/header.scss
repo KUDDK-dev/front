@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #FFF;
+
+    padding: 25px 71px;
+
+    .first-section-container {
+        display: flex;
+        align-items: center;
+
+        .logo {
+            display: inline-flex;
+
+            justify-content: center;
+
+            .logo-text {
+                width: min-content;
+                font-weight: bold;
+                font-size: 24px;
+
+                margin-left: 5px;
+            }
+        }
+
+        .search {
+            margin-left: 100px;
+        }
+    }
+}
+
+main {
+    position: relative;
+    margin: 15px;
+
+    height: calc(100vh - 116px);
+}

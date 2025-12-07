@@ -1,0 +1,33 @@
+.auth-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .microsoft-auth-redirect-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        
+        transition: 0.25s;
+
+        padding: 10px;
+
+        border: 1px solid #D2DBE9;
+        border-radius: 10px;
+
+        background-color: white;
+
+        cursor: pointer;
+
+        &:hover {
+            border: 1px solid #246DFF;
+            background-color: #246DFF;
+
+            transform: scale(1.15);
+        }
+    }
+}
