@@ -32,9 +32,7 @@ export default function Sidebar({ children }: Props) {
                     </div>
                 )}
             </section>
-            <section>
-                {children}
-            </section>
+            {children}
         </div>
     );
 }
